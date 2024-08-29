@@ -1,0 +1,96 @@
+/* laptop-view */
+@media screen and (max-width: 1300px) {
+
+    .header-container,
+    .main-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    main .product-card .img {
+        background-size: 70%;
+    }
+}
+
+
+/* tablet view & mobile view */
+@media screen and (max-width: 1000px) {
+
+    /* header */
+    header .text-img {
+        flex-direction: column;
+        gap: 0;
+        padding-top: 50px;
+    }
+
+    header .text-area {
+        max-width: 300px;
+    }
+
+    header .text-area h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 25px 0;
+    }
+
+    header .img-area img {
+        width: 70%;
+    }
+
+    header .img-area {
+        text-align: center;
+    }
+
+    main .product-card .img {
+        background-size: 25%;
+    }
+
+
+    /* main>products-container */
+    .products-container {
+        width: 95%;
+    }
+
+    main .flex {
+        flex-direction: column;
+    }
+
+
+    /* main>sidebar-container */
+    main .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+
+
+/* mobile view  */
+@media screen and (max-width: 500px) {
+    main .sidebar-container aside form {
+        width: 270px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 0;
+    }
+    main .sidebar-container aside form input {
+        border-radius: 5px 5px 5px 5px;
+    }
+    main .sidebar-container aside form button {
+        border-radius: 5px 5px 5px 5px;
+    }
+    main .sidebar-container aside .in-butt {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    main .sidebar-container aside .payment-reacipt {
+        margin: 70px 0 ;
+        width: 270px;
+    }
+}
